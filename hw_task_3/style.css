@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+ }
+
+ @font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+ }
+
+.top{
+   border: 0;
+   background: #fff;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   width: 1920px;
+   height: 700px;
+
+}
+
+
+.header{
+    margin-top: 40px;
+    margin-bottom: 84px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_logo{
+    width: 88px;
+    height: 30px;
+}
+.link{
+    width: 533px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_link{
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    text-decoration: none;
+}
+
+.top_content{
+    margin-top: 89px;
+    margin-bottom: 162px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+}
+
+.top_info{
+    /* width: 522px;
+    height: 222px; */
+    margin-bottom: 162px;
+}
+
+.top_button{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 72px;
+}
+
+.button{
+    width: 140px;
+    height: 50px;
+    margin-top: 37px;
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+}
+
+.top_button_color{
+    width: 90px;
+    height: 19px;
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: none;
+    
+}
+
+.title{
+    width: 522px;
+    height: 222px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 89px;
+    margin-bottom: 17px;
+}
+
+.text{
+    width: 466px;
+    height: 48px;
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 37px;
+}
+
+
+.logo{
+    width: 1200px;
+    height: 50px;
+    border: 0;
+    background: #fff;
+    padding-top: 97px;
+    padding-bottom: 96px;
+    padding-left: 345px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+ }
