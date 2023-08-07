@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
+    border: none;
+    outline: none;
 }
 
 .top_panel{
@@ -25,6 +30,9 @@
 }
 
 .riht_img{
+    display: flex;
+    gap: 33px;
+    align-items: center;
     padding-top: 26px;
     padding-bottom: 20px;
     margin-right: 240px;
@@ -36,7 +44,6 @@
     gap: 63.42px;
     max-width: 1600px;
     margin: 0 auto;
-    padding-bottom: 65px;
 }
 
 .top_name{
@@ -84,6 +91,7 @@
     max-width: 1600px;
     margin: 0 auto;
     justify-content: center;
+    margin-top: 65px;
 }
 
 .midl_text{
@@ -116,7 +124,7 @@
     width: 360px;
     height: 260px;
     background-color: rgba(33, 22, 22, 0.70);
-    z-index: 2;
+    z-index: 1;
 
 }
 
@@ -130,7 +138,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 2;
 }
 
 .bot_grid{
@@ -169,6 +177,7 @@
 
 .bot_item{
     padding: 24px 16px;
+    background: #F8F8F8;
 }
 
 .item_head{
@@ -219,23 +228,17 @@
     justify-content: center;
     padding-top: 48px;
     padding-bottom: 60px;
-}
-
-.icon_button{
-    background-color: #fff;
-    background-image: url(./img/bot_button.svg);
-    background-size: 48px 16px;
-}
-
-/* .bot_container{
     position: relative;
     text-align: center;
 }
 
-.shadow_bot{
+.border_bot{
     position: absolute;
-    width: 360px;
-    height: 420px;
-    background-color: #F7E4E2;
-    z-index: 2;
-} */
+}
+
+.button{
+    padding-top: 15px;
+    position: absolute;
+    
+}
+
