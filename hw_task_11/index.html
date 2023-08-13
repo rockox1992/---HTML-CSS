@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>SHOP</title>
 </head>
-<body class="fon">
+<body class="fon center">
     <div class="top_panel">
         
         <div class="left_img">
@@ -28,9 +28,12 @@
             </a>
         </div>
         <div class="riht_img">
-            <a href="#"><img src="./img/menu.svg" alt="menu"></a>
+            <button class="button_top menu" ><img src="./img/menu.svg" alt="menu"></button>
+            <button class="button_top" ><img src="./img/profil.svg" alt="profil"></button>
+            <button class="button_top" ><img src="./img/basket.svg" alt="basket"></button>
+            <!-- <a href="#"><img src="./img/menu.svg" alt="menu"></a>
             <a href="#"><img src="./img/profil.svg" alt="profil"></a>
-            <a href="#"><img src="./img/basket.svg" alt="basket"></a>
+            <a href="#"><img src="./img/basket.svg" alt="basket"></a> -->
         </div>
     </div>
 
@@ -70,9 +73,9 @@
             <div class="image">
                 <img class="img_midl" src="./img/midl_2.png" alt="midl_1">
             </div>
-            <div class="text_in_foto">
-                <h2 class="midl_text"><span class="midl_text_span">HOT DEAL</span><br>FOR MEN</h2>
-            </div>
+        <div class="text_in_foto">
+            <h2 class="midl_text"><span class="midl_text_span">HOT DEAL</span><br>FOR MEN</h2>
+        </div>
         </div>
 
         <div class="container">
@@ -86,9 +89,9 @@
         </div>
 
         <div class="container big">
-            <div class="shadow big"></div>
+            <div class="shadow"></div>
             <div class="image">
-                <img class="img_midl" src="./img/big_midl.svg" alt="midl_1">
+                <img class="img_midl big_img" src="./img/big_midl.svg" alt="midl_1">
             </div>
             <div class="text_in_foto">
                 <h2 class="midl_text"><span class="midl_text_span">LUXIROUS & TRENDY</span><br> ACCESORIES</h2>
@@ -105,25 +108,49 @@
                 Shop for items based on what we featured in this week
             </p>
         </div>
+
         <div class="bot_grid">
+            
             <div class="midl_item">
                 <img src="./img/bot_img/bot_1.svg" alt="bot_1" class="img_bot">
+
                 <div class="bot_item">
                     <h3 class="item_head">ELLERY X M'O CAPSULE</h3>
                     <p class="item_p">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p class="price">$52.00</p>
                 </div>
             </div>
+            
             <div class="midl_item">
-                <div class="bot_container">
-                    <div class="shadow_bot"></div>
-                    <img src="./img/bot_img/ping_gerl.svg" alt="bot_2" class="img_bot">
+                    <div class="bot_conteiner">
+
+                        <div class="bot_img"><img src="./img/bot_img/ping_gerl.svg" alt="bot_2" class="img_bot">
+                        </div>
+
+                        <div class="shadow_bot">
+                        </div>
+
+                        <div class="buy">
+                            <div class="centr_by">
+                                <div class="border">
+                                    <img src="./img/bot_img/white_border.svg" alt="">
+                                </div>
+                                <div class="in_border">
+                                    <img src="./img/bot_img/basket_shadow.svg" alt="">
+                                    <p class="buy_txt">Add to Cart</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    
+
                     <div class="bot_item">
                         <h3 class="item_head">ELLERY X M'O CAPSULE</h3>
                         <p class="item_p">Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                     <p class="price">$52.00</p>
                     </div>
-                </div>
             </div>
             <div class="midl_item">
                 <img src="./img/bot_img/bot_3.svg" alt="bot_3" class="img_bot">
@@ -164,10 +191,9 @@
             </div>
 
             <div class="button">
-                <a href="#"><p class="retern_text">Browse All Product</p>
-                </a>      
+                <button class="retern_text"> Browse All Product </button>   
             </div>
-            
+
         </div>
     </div>
 </body>
